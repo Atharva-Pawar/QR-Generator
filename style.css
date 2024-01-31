@@ -13,7 +13,7 @@ html,body{
 .main{
     height: 100%;
     width: 100%;
-    background-color: #222;
+    background: linear-gradient(135deg, rgba(14, 17, 23, 0.9), rgba(0, 0, 0, 0.9));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@ html,body{
 .container{
     width: 45%;
     height: 45%;
-    background-color: #424242;
+    background-color: rgb(14, 17, 23);
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -45,8 +45,8 @@ html,body{
     outline: none;
     border-radius: 5px;
     border: none;
-    background-color: #757575;
-    color: #fff;
+    background-color: rgb(38, 39, 48); 
+    color: whitesmoke;
     margin-bottom: 15px;
 }
 
@@ -55,8 +55,8 @@ html,body{
 }
 
 .btn{
-    background-color: #2196f3;
-    color: #fff;
+    background-color: rgb(38, 39, 48); 
+    color: whitesmoke;
     padding: 10px;
     font-size: 15px;
     border: none;
@@ -68,7 +68,7 @@ html,body{
 }
 
 .btn:hover {
-    background-color: #0d47a1;
+    background-color: rgb(29, 38, 57);
   }
 
 .image{
